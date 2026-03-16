@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Image Color Picker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎨 Image Color Picker</h1>
+
+<input type="file" id="imageInput">
+<p class="hint">
+Click on the image to lock a color. Press <b>ESC</b> to unlock and pick again.
+</p>
+<div class="container">
+
+    <div class="image-box">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="color-info">
+
+        <p>HEX: <span id="hex">-</span></p>
+        <p>RGB: <span id="rgb">-</span></p>
+
+        <div id="preview"></div>
+
+        <button id="copyBtn">Copy HEX</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+<div id="colorTooltip">
+    <div id="tooltipColor"></div>
+    <span id="tooltipHex">#000000</span>
+</div>
+</body>
+</html>
