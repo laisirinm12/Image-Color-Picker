@@ -1,6 +1,6 @@
 # Image Color Picker
 
-This is a simple **Image Color Picker Web Application** built using **HTML, CSS, and JavaScript** with the **Canvas API**.  
+This is a simple **Image Color Picker Web Application** built using **HTML, CSS and JavaScript** with the **Canvas API**.  
 It allows users to upload an image and interactively pick colors from any pixel in the image.
 
 The application supports **hover color preview, click-to-lock color selection, HEX/RGB display, and copying color values** while maintaining a clean **developer-tool style interface** with a workspace background.
